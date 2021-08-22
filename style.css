@@ -1,0 +1,694 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: rgb(59, 58, 58);
+    height: 9vh;
+    display: flex;
+}
+.govlogo{
+    height: 8vh;
+    width: 3.54vw;
+    margin-left: 5vw;
+    margin-top: 0.5vh ;
+    margin-right: 1vw;
+}
+.ministry{
+    color: blanchedalmond;
+    text-decoration: none;
+    height: 10vh;
+    padding:3vh
+}
+.ministry:hover{
+    text-decoration: underline;
+}
+.dashboard,.skip,.language{
+    background-color: rgb(59, 58, 58);
+    color: blanchedalmond ;
+    border: none;
+    padding: 2vw;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.skip a{
+    color: blanchedalmond;
+}
+.dashboard{
+    margin-left: 17vw;
+}
+.dashboard a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.slash{
+    margin:3.5vh ;
+    color: blanchedalmond;
+    font-size: 1.3rem;
+}
+.fontIn,.fontDe, .fontReset{ 
+   border-color: blanchedalmond;
+    background-color: rgb(43, 41, 41);
+    color: blanchedalmond ;
+    padding: 0 2vh;
+    font-size: 0.9em;
+    margin: 2vh;
+}
+
+.fontIn:hover,.fontDe:hover, .fontReset:hover{
+    background-color: blanchedalmond;
+    color: rgb(41, 40, 40); 
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#menu li img{
+    height: 9vh;
+    margin: 1vh;
+ margin-left: -2vw;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 2vw;
+    margin:3vh;
+    color: rgb(59, 58, 58);
+}
+#register a{
+    width: 80vh;
+    padding: 2vh;
+    background-color: rgb(238, 238, 13);
+    font-size: 1.2rem;
+    margin:5vh;
+    color: rgb(59, 58, 58);
+    border-radius: 25rem;
+    border: none;
+    box-shadow: 0.25rem 0.25rem 0.5rem black;
+}
+#register:hover{
+     cursor: pointer;
+}
+.container{
+    display: flex;
+}
+section .question{
+    margin: 6vh;
+    padding-left: 7vh;
+    color: rgb(59, 58, 58);
+    font-size: 3rem;
+    width: 75vh;
+}
+.hindi{
+    margin: 6vh;
+    padding-left: 7vh;
+    
+}
+ section button{
+    margin-left: 12vh;
+    padding: 2vh;
+    width: 55vh;
+    background-color: rgb(238, 238, 13);
+    border-radius: 25rem;
+    border: none;
+    font-size: 1.3rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem black;
+    }
+    button a{
+    color: rgb(43, 41, 41);
+    text-decoration: none;    
+    }
+    .modiImg{
+        margin-left: 17vh;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    .helpline{
+        display: flex;
+        color: rgb(59, 58, 58);
+        background-color: rgb(220, 227, 230);
+    }
+    .helpline span{
+        margin-left: 11vh;
+        margin-top: 3vh;
+        font-weight: bold;
+        margin-bottom: 3vh;
+    }
+    h1{
+        text-align: center;
+        margin-top: 10vh;
+        font-weight: bold;
+        color: rgb(59, 58, 58);
+    }
+    .topSearch{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.25rem;
+        padding: 1rem;
+        grid-gap: 2rem;
+        cursor: pointer;
+    }
+    #tab1{
+        margin-left: 65vh;
+
+    }
+    #tab2{
+        margin-right: 65vh;
+    }
+    .topSearch .tabBorder{
+        border-bottom: 4px solid rgb(59, 58, 58) !important;
+        padding: 1rem;
+    }
+    #tab1Content, #tab2Content{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        
+    }
+    input.pin{
+        width: 70vh;
+        padding: 2vh;
+        text-align: center;
+        border-radius: 25vh;
+        border-color: rgb(150, 146, 146);
+        outline: none;
+    }
+    button.pinSearch{
+        background-color: rgb(59, 57, 57);
+        color: seashell;
+        width: 20vh;
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+
+    .state, .district{
+        width: 50vh;
+        padding: 2vh;
+        text-align: center;
+        border-radius: 25vh;
+        border-color: rgb(150, 146, 146);
+        outline: none;
+        margin: 1rem;
+    }
+    #vaccinationProcedure{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 9vh;
+        margin-top: 30vh;
+    }
+    #pro1,#pro2, #pro3{
+        background-color:rgb(252, 246, 246) ;
+        border:1px solid rgb(219, 215, 215);
+        width: 60vh;
+        border-radius: 2vh;
+        height: 35vh;
+    }
+    .propara{
+        width:35vh ;
+        text-align: center;
+        margin: auto;
+        margin-top: 8vh;
+        font-weight:bold;
+        margin-bottom: 3vh;
+        font-size: 1.1rem;
+    }
+    #vaccinationProcedure a{
+        text-decoration: none;
+        text-align: center;
+        color: rgb(41, 40, 40);
+        margin: auto;
+        display: block;
+        font-size: 0.75rem;
+    }
+    #vaccinationProcedure a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .proImg{
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        margin-top: -23vh;
+    }
+    .helpContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    #help{
+        background-color:rgb(252, 246, 246) ;
+        margin: 15vh 0;
+        padding-bottom: 4rem;
+    }    
+    button.issueItem{
+        width: 85%;
+        margin: 0.5rem;
+        margin-left: 5rem;
+        height:2.25rem ;
+        border-radius: 0.5rem;
+        background-color: rgb(59, 58, 58);
+        color: seashell;
+        text-align: left;
+        padding: 0.5rem;
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+    button.issueItem:hover{
+        background-color: black;
+    }
+    .issue h3{
+        margin-left: 5rem;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    #help h1{
+        margin: 3.5rem;
+        padding-top: 4rem ;
+    }
+    .contact{
+        margin-left: 6rem;
+        padding-right: 5rem;
+    }
+    .contact hr{
+    border-width: 1px;
+    border-color: rgb(102, 99, 99);
+    }
+    .contactUs{
+        font-size: 1.3rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+    .helpline1, .tech{
+        margin: 1rem 0;
+    }
+    .helpline1 .no{
+        margin-left: 8rem;
+    }
+    .tech .no{
+        margin-left: 4rem;
+    }
+    .issue a{
+        text-decoration: none;
+        color: blanchedalmond;
+    }
+    #services a, #platforms a, #resources a{
+        color: rgb(219, 215, 215);
+        width: 60vh;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(37, 37, 37);
+        margin: 1.5vh auto;
+        padding: 1vh;
+        border-radius: 3vh;
+        text-align: center;
+        font-size: 3vh;
+        box-shadow:0.85vh 0.75vh 0.85vh rgb(41, 40, 40);
+    }
+    #services h1, #platforms h1, #resources h1{
+        font-size: 5vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    #services a:hover, #platforms a:hover, #resources a:hover{
+        background-color: rgb(12, 12, 12);
+    }
+    .nanItem hr{
+        margin:3vh auto;
+        width: 60%;
+        border-width: 2px;
+        border-color: rgb(43, 41, 41);
+    }
+    #tab1Content, #tab2Content{
+        display: none;
+    }
+    .show{
+        display: block !important;
+        margin: auto !important;
+    }
+    #tab1Content{
+        padding-left: 53vh;
+    }
+    #tab2Content{
+        padding-left: 35vh;
+    }
+    
+    @media(max-width:415px){
+        .toggle{
+            background-color: rgb(247, 242, 242);
+            width: 28vh;
+            height: 20vh;
+            border: 1px solid rgb(202, 200, 200);
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px rgb(126, 124, 124);
+            position: absolute;
+            top: 19.5%;
+            right: 5%;
+            display: none;
+        }
+        .toggle ul{
+            list-style-type: none;
+        }
+        .toggle li{
+            margin: 1vh 1vh;
+            padding: 1vh;
+        }
+        .toggle a{
+            text-decoration: none;
+            color: rgb(24, 23, 23);
+        }
+        
+        .burger{
+            position: absolute;
+            right: 7%;
+            top: 13.8%;
+            border: 1.5px solid rgb(12, 12, 12);
+            border-radius: 15%;
+        }
+        .line{
+            width: 38px;
+            background-color: rgb(12, 12, 12);
+            margin: 5px 3px;
+            height: 4px;   
+        }
+             
+        .top {
+            height: 11vh;
+        }
+        .govlogo {
+            height: 6vh;
+            width: 7.54vw;
+            margin-left: 5vw;
+            margin-top: 2.5vh;
+        }
+        .ministry{
+            padding: 2vh;
+            width: 15vh;
+        }
+        .dashboard{
+            margin-left: 0vw;
+        }
+        .slash {
+            margin: 3.2vh 1vh;
+        }
+        .skip{
+            display: none;
+        }
+        .fontIn, .fontDe, .fontReset {
+            display: none;
+        }
+        .navbar li a {
+            display: none;
+        }
+        #menu li img {
+            height: 4vh;
+            margin: 4vh 0.75vh;
+            margin-left: -16vh;
+        }
+        #register a{
+            display:block;
+        }
+        #register a {
+           width: 21vh;
+           padding: 1vh;
+           font-size: 0.65rem;
+           margin: -3.5vh 0vh;
+           text-align: center;
+        }
+        
+        section .question {
+            margin: 5vh auto;
+            padding-left: 1vh;
+            color: rgb(59, 58, 58);
+            font-size: 1.75rem;
+            width: 52vh;
+            text-align: center;
+        }
+        .hindi {
+            margin: 3vh;
+            padding-left: 6vh;
+        }
+        section button {
+            margin: 1vh 4.5vh;
+            padding: 1vh;
+            width: 47vh;
+            font-size: 1rem;
+        }
+        section.modi{
+            height: 50vh;
+        }
+        .modiImg{
+            display:none;
+        }
+        span#dial, span#dash, span#mh, span#sc{
+            display: none;
+        }
+        .helpline span {
+            margin-left: 3vh;
+        }
+        h1 {
+            width: 70%;
+            margin:  3vh auto;
+            padding: 1.5vh;
+        }
+        #tab1 {
+            margin-left: 62vh;
+            width: 28vh;
+        }
+        #tab2{
+            width: 28vh;
+        }
+        .topSearch {
+            grid-gap: 0vh;
+        }
+        input.pin {
+            width: 50vh;
+            padding: 1vh;
+        }
+        button.pinSearch {
+            width: 50vh;
+            font-size: 0.8rem;
+            margin-left: 1.5rem;
+        }
+        #tab1Content, #tab2Content {
+            flex-direction: column;
+        }
+        section button {
+            margin: 3vh 4.5vh;
+        }
+        .state, .district {
+            margin: 1vh;
+        }
+        #vaccinationProcedure{
+            display: block;
+        }
+        #pro1, #pro2, #pro3 {
+            width: 50vh;
+            height: 45vh;
+            margin-left: -6vh;
+            margin-top: 30vh;
+        }
+        .helpContainer{
+            display: block;
+        }
+        button.issueItem {
+            width: 90%;
+            margin: 0.5rem;
+            margin-left: 1rem;
+            height: 2rem;
+            padding: 0.5rem;
+            font-size: 0.8rem;
+            padding-left: 0.5rem;
+        }
+        #help h1 {
+            margin: 2rem 3rem;
+            padding-top: 2rem;
+        }
+        .issue h3 {
+            margin-left: 6rem;
+        }
+        .helpline1>span, .tech>span{
+            display: block;
+        }
+        .contact {
+            margin: 1rem;
+            padding: 1rem;
+        }
+        .helpline1 .no {
+            margin: 1rem 0rem;
+        }
+        .tech .no {
+            margin: 1rem 0;
+        }
+        #help {
+            height: 105vh;
+        }
+        #services a, #platforms a, #resources a {
+            width: 50vh;
+        }
+        #tab1Content{
+            padding-left: 3vh;
+        }
+        #tab2Content{
+            padding-left: 2vh;
+        }
+        button.pinSearch {
+            margin-left: 0.05rem;
+        }
+    }
+    @media(min-width:415px)and (max-width:1024px){
+        .top{
+            height: 5.5vh;
+        }
+        .govlogo {
+            height: 3vh;
+            margin-left: 2vw;
+        }
+        .ministry{
+            margin-left:1vh;
+            padding: 0.2vh;
+            width:3vh;
+            height: 3vh;
+            padding-left: 1vh;
+        }
+        .dashboard, .skip, .language {
+            padding-left: 1vw;
+            font-size: -0.1em;
+            padding:1vh  
+        }
+        .fontIn, .fontDe, .fontReset {
+            padding: 0px 1vh;
+            font-size: 0.9em;
+            margin: 0.75vh 1.5vh;
+        }
+        #menu li img {
+            height: 5vh;
+            margin: 0.5vh;
+            margin-left: 1vw
+        }
+        .navbar li a {
+            padding: 0vw;
+            margin: 1vh;
+            font-size: 1.1rem
+        }
+        #register a{
+            padding:1vh;
+            font-size: 1.2rem;
+            margin: 0vh 1vh;
+        }
+        section .question {
+            margin: 1vh;
+            padding-left: 0vh;
+            width: 39vh;
+        }
+        .hindi {
+            margin: 1vh;
+            padding:1.5vh 0vh;
+        }
+        section button {
+            margin-left: 1vh;
+            padding: 0.75vh;
+            width: 17vh;
+            font-size: 1.49rem;
+        }
+        .modiImg{
+            padding: 1vh;
+            margin: 1vh 3vh;
+        }
+        button.issueItem {
+            width: 92%;
+            margin: 0.5rem;
+            margin-left: 1rem;
+        }
+        .helpline1 .no {
+            margin-left: 3rem;
+        }
+        .contact {
+            margin-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+        .helpline span {
+            margin-left: 4vh;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
+        h1{
+            font-size: 2vh;
+        }
+        .topSearch .tabBorder {
+            width: 15vh;
+        }
+        #tab2{
+            width: 15vh
+        }
+        input.pin {
+            width: 30vh;
+            padding: 1vh; 
+        }
+        button.pinSearch {
+            width: 8vh;
+        }
+        .state, .district {
+            width: 22vh;
+            padding: 1vh;
+        }
+        #pro1, #pro2, #pro3 {
+            background-color: rgb(252, 246, 246);
+            border: 1px solid rgb(219, 215, 215);
+            width: 20vh;
+            border-radius: 2vh;
+            height: 22vh;
+            padding-top: 21vh;
+            margin-top: -16vh;
+            margin-left: -3vh;
+        }
+        .propara {
+            width: 16vh;
+            margin-top: 3vh;
+            font-size: 0.8rem;
+        }
+        .slash{
+            display: none;
+        }
+        .proImg{
+            margin-top: -30vh;
+            height: 15vh;
+        }
+        #services h1, #platforms h1, #resources h1 {
+            font-size: 3vh;
+            margin-top: vh;
+            margin-bottom: 1vh;
+        }
+        #services a, #platforms a, #resources a {
+            width: 25vh;
+            font-size: 2vh;
+        }
+        #tab1Content{
+            padding-left: 16vh;
+        }
+        #tab2Content{
+            padding-left: 5vh;
+        }
+        #tab1{
+            width: 15vh;
+        }
+        
+        #tab2{
+            width: 18vh;
+        }
+    }
+
+
+    
+    
+    
+

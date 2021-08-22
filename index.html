@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoWIN Home Page Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header class="top">
+        <img src="gov-logo.png" alt="Government Of India" class="govlogo">
+        <span></span><a href="https://www.india.gov.in/" class="ministry" target="_blank">Ministry of Health</a></span>
+        <button class="dashboard" title="dashboard">
+            <a href="https://dashboard.cowin.gov.in/?lang=en" target="_blank">
+                Dashboard
+            </a>
+        </button>
+        <span class="slash">|</span>
+        <button class="skip" title="Skip to Main Content"><a href="#skipp"> Skip To Main Content</a></button>
+        <button class="fontIn" title="Increase Font Size">A+</button>
+        <button class="fontReset" title="Reset Font Size">A</button>
+        <button class="fontDe" title="Decrease font size">A-</button>
+        <button class="language" title="Select Language">English</button>
+    </header>
+    <nav class="navbar" id="skipp">
+        <ul id="menu">
+            <li><img src="covid19logo.jpg" alt="CoWin Logo" title="CoWIN"></li>
+            <li class="Services "><a href="#services" title="Vaccination Services">Vaccination Services</a> </li>
+            <li><a href="#platforms" title="Platforms">Platforms</a> </li>
+            <li><a href="#resources" title="Resources"> Resources</a></li>
+            <li id="register" title="Rgister/Sign In"><a href="https://selfregistration.cowin.gov.in/" target="_blank">REGISTER
+                        / SIGN IN</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="toggle">
+        <ul>
+            <li><a href="#services">Vaccination Services</a></li>
+            <li><a href="#platforms">Platforms</a></li>
+            <li><a href="resources">Resources</a></li>
+        </ul>
+    </div>
+    <hr>
+    <section class="modi">
+        <div class="container">
+            <div>
+                <div class="question">Are You Protected Against COVID-19?</div>
+                <div class="hindi">क्या आप कोविड-19 से सुरक्षित हैं ?</div>
+                <button class="book" title="Book Your Slot"><a href="https://selfregistration.cowin.gov.in/" target="_blank"> BOOK YOUR SLOT</a></button>
+                <button class="download" title="Download Certificate"><a href="https://selfregistration.cowin.gov.in/" target="_blank"> DOWNLOAD CERTIFICATE</a></button>
+            </div>
+            <div class="modiImg"><img src="modi-home-banner.png" alt="ModiJee"></div>
+        </div>
+    </section>
+    <hr>
+    <div class="helpline">
+        <span id="dial">HELPLINE</span>
+        <span id="dash">|</span>
+        <span>Number <br>91-11-23978046</span>
+        <span>Health Ministry <br>1075</span>
+        <span>Child <br>1098</span>
+        <span id="mh">Mental Health <br>08046110007</span>
+        <span id="sc">Senior Citizen <br>14567</span>
+    </div>
+    <hr>
+    <section class="searchBlock">
+
+        <div class="heading">
+            <p>
+            <h1>Check Your Nearest Vaccination Center And Slots Availability </h1>
+            </p>
+        </div>
+        <div class="topSearch">
+            <div id="tab1" class="tabItem tabBorder">
+                Search By PIN
+            </div>
+
+            <div id="tab2" class="tabItem">
+                Search By District
+            </div>
+        </div>
+        <div class="contentSearch">
+            <div id="tab1Content" class="tabItemContent show">
+                <input type="text" class="pin" placeholder="Enter your PIN">
+                <button class="pinSearch">SEARCH</button>
+            </div>
+
+            <div id="tab2Content" class="tabItemContent">
+                <input type="text" class="state" placeholder="Enter your State">
+                <input type="text" class="district" placeholder="Enter your District">
+                <button class="pinSearch">SEARCH</button>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h1 class="procedureHead">
+            How To Get Your vaccination
+        </h1>
+        <div id="vaccinationProcedure">
+            <div id="pro1" class="procedureBlock">
+                <img src="vaccination1.jpg" alt="vaccination1" class=proImg>
+                <p class="propara">
+                    Book An Appointment On CoWIN or Walk Into Any Vaccination Center
+                </p>
+                <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/User_Guide_Citizen%20registration_18%2B.pdf" target="_blank">
+                    HOW TO BOOK YOUR APPOINTMENT ON COWIN
+                </a>
+            </div>
+            <div id="pro2" class="procedureBlock">
+                <img src="vaccination2.jpg" alt="vaccination2" class="proImg">
+                <p class="propara">
+                    Get Your Vaccination Safely at the Time of Your Appointment
+                </p>
+                <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf" target="_blank">
+                    DOS AND DONT'S FORGETTING VACCINATED
+                </a>
+            </div>
+            <div id="pro3" class="procedureBlock">
+                <img src="vaccination3.jpg" alt="vaccination3" class="proImg">
+                <p class="propara">
+                    Download Your Vaccination Certificate from CoWIN and Wait for Dose #2
+                </p>
+                <a href="https://selfregistration.cowin.gov.in/vaccination-certificate" target="_blank">
+                    DOWNLOAD YOUR VACCINE CERTIFICATE
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="help">
+        <h1>How Can We Help You?</h1>
+        <div class="helpContainer">
+            <div class="issue">
+                <h3>Raise An Issue</h3>
+                <button class="issueItem">
+                    <a href="https://selfregistration.cowin.gov.in/" target="_blank">
+                        Get Your Certificate Corrected
+                    </a>
+                </button>
+                <button class="issueItem">
+                    <a href="https://selfregistration.cowin.gov.in/" target="_blank">
+                        Add passport Details In Vaccination Certificate
+                    </a>
+                </button>
+                <button class="issueItem">
+                    <a href="https://selfregistration.cowin.gov.in/" target="_blank">
+                        vaccine Certificate Not Received
+                    </a>
+                </button>
+                <button class="issueItem">
+                    <a href="https://selfregistration.cowin.gov.in/" target="_blank">
+                        Merge Multiple Dose#1 certificates
+                    </a>
+                </button>
+            </div>
+            <div class="contact">
+                <div class="contactUs">Contact Us</div>
+                <hr>
+                <div class="helpline1">
+                    <span>Helpline</span>
+                    <span class="no">+91 11 23978046 (Toll Free - 1075 )</span>
+                </div>
+                <div class="tech">
+                    <span>Technical Helpline</span>
+                    <span class="no">0120 4473222</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nanItem">
+        <div id="services">
+            <h1>Vaccination Services</h1>
+            <div class="serviceList">
+                <ul>
+                    <li><a href="https://selfregistration.cowin.gov.in/?lang=en" target="_blank">Register Members</a></li>
+                    <li><a href="https://selfregistration.cowin.gov.in/?lang=en" target="_blank">Book vaccination Slots</a></li>
+                    <li><a href="https://selfregistration.cowin.gov.in/?lang=en" target="_blank">Manage Appointment</a></li>
+                    <li><a href="https://selfregistration.cowin.gov.in/?lang=en" target="_blank">Download Certificate</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="platforms">
+            <h1>Platforms</h1>
+            <div class="platformList">
+                <ul>
+                    <li><a href="https://sandbox.cowin.gov.in/" target="_blank">CoWIN International</a></li>
+                    <li><a href="https://app.cowin.gov.in/login" target="_blank">Vaccinator</a></li>
+                    <li><a href="https://admin.cowin.gov.in/login" target="_blank">Department Login</a></li>
+                    <li><a href="https://verify.cowin.gov.in/" target="_blank">Verify Certificate</a></li>
+                    <li><a href="https://dashboard.cowin.gov.in/?lang=en" target="_blank">Vaccination Statistics</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <div id="resources">
+            <h1>Resources</h1>
+            <div class="resourceList">
+                <ul>
+                    <li><a
+                            href="https://prod-cdn.preprod.co-vin.in/assets/pdf/User_Guide_Citizen%20registration_18%2B.pdf" target="_blank">How
+                            To Get Vaccinated</a></li>
+                    <li><a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf" target="_blank">Dos and
+                            Don'ts</a></li>
+                    <li><a href="https://prod-cdn.preprod.co-vin.in/assets/docx/CoWINAPIGuidelinesFinal.pdf" target="_blank">API
+                            Guidelines</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    <hr>
+    </section>
+</body>
+
+</html>
